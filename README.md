@@ -11,7 +11,7 @@ This project is inspired by the methods in *Optimization on Symplectic Embedding
 The main workflow is structured in five parts:
 
 1. **Establishing the domain, D**
-    Sample uniformly from the 2D unit disk.
+   Sample uniformly from the 2D unit disk.
 
 2. **Defining the neural network map**  
    Train a small feedforward network to learn a transformation f(x, y) → (x', y').
