@@ -26,6 +26,12 @@ The main workflow is structured in five parts:
 
 ---
 
+### To See Sample Output
+
+To view the sample output of a run of the program, check the Jupyter notebook file `main.ipynb` and the `figures` folder. The notebook contains detailed steps of the computation and visualization, while the figures folder includes images generated during the execution of the program.
+
+---
+
 ### Additional Information
 - **Skills**: Python, NumPy, PyTorch  
 - **Concepts**: 2-forms, area-preserving diffeomorphisms, Jacobian determinant
