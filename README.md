@@ -14,7 +14,7 @@ The main workflow is structured in five parts:
    Sample uniformly from the 2D unit disk.
 
 2. **Defining the neural network map**  
-   Train a small feedforward network to learn a transformation \( f(x, y) \to (x', y') \).
+   Train a small feedforward network to learn a transformation f(x, y) → (x', y').
 
 3. **Loss function**  
    Penalize deviations from area preservation using the Jacobian determinant.
