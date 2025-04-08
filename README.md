@@ -1,10 +1,5 @@
 # Learning Area-Preserving 2D Embeddings for Symplectic Simulations
 
-![Example Output Fig 1](https://raw.githubusercontent.com/AJ-git-dev/symplectic-nn/main/figures/example_output_fig1.png)
-
-![Example Output Fig 2](https://raw.githubusercontent.com/AJ-git-dev/symplectic-nn/main/figures/example_output_fig2.png)
-
-
 ### Symplectic Embedding Neural Network Summary
 
 This project serves as a toy model for exploring area-preserving diffeomorphisms in 2D, as a testbed for future symplectic embedding tools. It uses machine learning to train transformations from the unit disk in R^2 to other 2D regions while preserving total area. The core behavior mimics a key property of symplectic embeddings—area preservation—within a 2D framework (Schlenk, 2017, p. 10).
@@ -33,7 +28,13 @@ The main workflow is structured in five parts:
 
 ### To See Sample Output
 
-To view the sample output of a run of the program, check the Jupyter notebook file `main.ipynb` and the `figures` folder. The notebook contains detailed steps of the computation and visualization, while the figures folder includes images generated during the execution of the program.
+Example Output Fig. 1: 
+![Example Output Fig 1](https://raw.githubusercontent.com/AJ-git-dev/symplectic-nn/main/figures/example_output_fig1.png)
+
+Example Output Fig 2
+![Example Output Fig 2](https://raw.githubusercontent.com/AJ-git-dev/symplectic-nn/main/figures/example_output_fig2.png)
+
+To view the the details of the sample output of a run of the program, check the Jupyter notebook file `main.ipynb` and the `figures` folder. The notebook contains detailed steps of the computation and visualization, while the figures folder includes images generated during the execution of the program.
 
 ---
 
