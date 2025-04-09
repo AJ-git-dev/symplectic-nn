@@ -10,28 +10,29 @@ This project is inspired by the methods in *Optimization on Symplectic Embedding
 The main workflow is structured in five parts:
 
 1. **Establishing the domain, D**  
-   Sample uniformly from the 2D unit disk.
+   Sample uniformly from the 2D unit disk. D is written in ```utils.py```. 
 
 2. **Defining the neural network map**  
-   Train a small feedforward network to learn a transformation f(x, y) → (x', y').
+   Train a small feedforward network to learn a transformation f(x, y) → (x', y'). The network is modeled in ```model.py```.  
 
 3. **Loss function**  
-   Penalize deviations from area preservation using the Jacobian determinant.
+   Penalize deviations from area preservation using the Jacobian determinant. Found in ```utils.py```.
 
 4. **Training the network**  
-   Optimized via PyTorch and Adam.
+   Optimized via PyTorch and Adam.   
 
 5. **Visualization**  
    Display original and mapped shapes, along with area-preservation loss over time.
 
 ---
 
-### To See Sample Output
+### Sample Output
 
 Example Output Fig. 1: 
 ![Example Output Fig 1](https://raw.githubusercontent.com/AJ-git-dev/symplectic-nn/main/figures/example_output_fig1.png)
 
-Example Output Fig 2
+Example Output Fig 2: 
+
 ![Example Output Fig 2](https://raw.githubusercontent.com/AJ-git-dev/symplectic-nn/main/figures/example_output_fig2.png)
 
 To view the the details of the sample output of a run of the program, check the Jupyter notebook file `main.ipynb` and the `figures` folder. The notebook contains detailed steps of the computation and visualization, while the figures folder includes images generated during the execution of the program.
