@@ -7,7 +7,7 @@ This project serves as a toy model for exploring area-preserving diffeomorphisms
 ### Methodology
 This project is inspired by the methods in *Optimization on Symplectic Embeddings* by Gajewski et al. Unlike their use of symplectic integrators applied to Hamiltonian flows, this implementation directly learns coordinate-wise mappings f: R^2 → R^2, constrained via the determinant of the Jacobian. While this does not enforce true symplecticity, it approximates one core geometric property of symplectic maps in 2D.
 
-The main workflow is structured in five parts:
+The main workflow is structured in five parts (following the flow of ```main.ipynb```:
 
 1. **Establishing the domain, D**  
    Sample uniformly from the 2D unit disk. D is written in ```utils.py```. 
@@ -19,10 +19,10 @@ The main workflow is structured in five parts:
    Penalize deviations from area preservation using the Jacobian determinant. Found in ```utils.py```.
 
 4. **Training the network**  
-   Optimized via PyTorch and Adam.   
+   Optimized via PyTorch and Adam. Found in ```main.ipynb```. 
 
 5. **Visualization**  
-   Display original and mapped shapes, along with area-preservation loss over time.
+   Display original and mapped shapes, along with area-preservation loss over time. Found in ```main.ipynb```. 
 
 ---
 
