@@ -32,7 +32,7 @@ Example Output Fig. 1:
 
 ![Example Output Fig 1](https://raw.githubusercontent.com/AJ-git-dev/symplectic-nn/main/figures/example_output_fig1.png)
 
-Example Output Fig 2: 
+Example Output Fig. 2: 
 
 ![Example Output Fig 2](https://raw.githubusercontent.com/AJ-git-dev/symplectic-nn/main/figures/example_output_fig2.png)
 
